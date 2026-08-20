@@ -52,7 +52,11 @@ vim backend/src/main/resources/application.properties
 ### Build springboot Application using maven
 
 ```shell
-mvn clean package
+mvn clean package 
+```
+```
+mvn clean package -DskipTests
+
 ```
 
 ## Step 4: Run the Application
